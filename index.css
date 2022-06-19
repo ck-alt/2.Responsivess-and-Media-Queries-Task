@@ -4,6 +4,7 @@
 
 body {
     padding: 0px;
+    font-size: 18px;
 }
 
 header {
@@ -58,6 +59,8 @@ nav>button {
 main {
     border: 1px solid red;
     width: 100%;
+    position: relative;
+    z-index: 0px;
 }
 
 .center2:first-child {
@@ -72,4 +75,36 @@ main {
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+.image {
+    margin-top: 30px;
+}
+
+.txt {
+    border: 1px solid red;
+    width: 60%;
+    margin: 30px auto 20px auto;
+}
+
+main h3 {
+    margin-top: 0px;
+    border: 1px red solid;
+    font-family: 'Poppins', sans-serif;
+}
+
+#relative {
+    position: relative;
+    z-index: 0;
+}
+
+#move {
+    border: 1px solid blue;
+    position: absolute;
+    z-index: 10;
+    top: -20px;
+    text-align: center;
+    left: 10%;
+    right: 10%;
 }
