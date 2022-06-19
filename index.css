@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+}
+
+header {
+    margin: 0px;
+    background-image: url("images/bg-hero-mobile.svg");
+    background-size: 500px;
+    height: 500px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav>img {
+    margin: 4px 0px 2px 0px;
+}
+
+nav>button {
+    border-radius: 10px;
+    border: none;
+    width: 80px;
+    height: 25px;
+    font-size: 10px;
+    padding: 4px;
+    margin: 4px 5px 2px 0px;
+}
+
+.center {
+    height: 470px;
+    text-align: center;
+}
+
+#get {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+}
+
+#chat {
+    height: 238px;
+    padding-top: 20px;
+}
+
+main {
+    border: 1px solid red;
+    width: 100%;
+}
+
+.center2:first-child {
+    margin-top: 50px;
+}
+
+.center2 {
+    text-align: center;
+    border: 1px solid red;
+    height: 450px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
