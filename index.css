@@ -1,219 +1,243 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
-    font-size: 18px;
-}
-
-header {
-    background-color: hsl(193, 100%, 96%);
-    margin: 0px 0px 0px 0px;
-    background-image: url("images/bg-hero-mobile.svg");
-    background-size: 500px;
-    height: 500px;
-    width: 100%;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-nav>img {
-    margin: 4px 0px 2px 0px;
-}
-
-nav>button {
-    border-radius: 10px;
-    border: none;
-    width: 80px;
-    height: 25px;
-    font-size: 10px;
-    padding: 4px;
-    margin: 4px 5px 2px 0px;
-}
-
-.center {
-    height: 470px;
-    text-align: center;
-}
-
-#get {
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30px;
-    width: 200px;
-    border-radius: 15px;
-    border: none;
-    background-color: hsl(322, 100%, 66%);
-}
-
-#chat {
-    height: 238px;
-    padding-top: 20px;
-}
-
-main {
-    width: 100%;
-    position: relative;
-    z-index: 0px;
-    background-color: white;
-    margin: 0px 0px;
-}
-
-.center2:first-child {
-    margin-top: 50px;
-}
-
-.center2 {
-    box-shadow: 2px;
-    text-align: center;
-    height: 450px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 20px;
-    border: #E0E0E0;
-    box-shadow: 0 0 4px #ccc;
-}
-
-.image {
-    margin-top: 30px;
-}
-
-.txt {
-    width: 60%;
-    margin: 30px auto 20px auto;
-}
-
-main h3 {
-    margin-top: 0px;
-    font-family: 'Poppins', sans-serif;
-}
-
-#relative {
-    position: relative;
-    z-index: 0;
-}
-
-#move {
-    background-color: white;
-    position: absolute;
-    z-index: 10;
-    top: -70px;
-    text-align: center;
-    left: 10%;
-    right: 10%;
-    border-radius: 15px;
-    height: 150px;
-    padding-top: 20px;
-    box-shadow: 0 0 4px #ccc;
-}
-
-#move>button {
-    color: white;
-    border: none;
-    background-color: hsl(322, 100%, 66%);
-    height: 30px;
-    width: 200px;
-    border-radius: 15px;
-}
-
-footer {
-    margin-top: 0px;
-    padding-top: 100px;
-    padding-left: 20px;
-    background-color: hsl(192, 100%, 9%);
-    margin-bottom: 0px;
-}
-
-.float {
-    display: flex;
-    flex-direction: row;
-}
-
-.float:last-child {
-    margin-bottom: 30px;
-}
-
-.float>img {
-    margin-top: 20px;
-    margin-right: 20px;
-}
-
-.float>p {
-    color: white;
-}
-
-#block {
-    display: flex;
-    flex-direction: column;
-}
-
-#block>a {
-    text-decoration: none;
-    color: white;
-    margin-bottom: 20px;
-}
-
-#down {
-    padding-top: 20px;
-    text-align: center;
-}
-
-.fa {
-    border: 1px solid white;
-    border-radius: 50%;
-    padding: 2.5px;
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
-    color: white;
-}
-
-p>small {
-    color: white;
-}
-
-@media (min-width:760px) {
-    body {
-        padding: 0px;
-        background-color: black;
-    }
-    header {
-        height: 700px;
-        margin: 0px;
-    }
-    .center {
-        display: flex;
-        flex-direction: row;
-    }
-    #chat>img {
-        width: 700px;
-        height: 500px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .center2 {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    .center2:nth-child(2) {
-        flex-direction: row;
-    }
-    #foot {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    #float2>p {
-        border: 1px solid red;
-        width: 200px;
-    }
-}
+                                                                                            * {
+                                                                                            box-sizing: border-box;
+                                                                                        }
+                                                                                        
+                                                                                        body {
+                                                                                            margin: 0px;
+                                                                                            padding: 0px;
+                                                                                            font-size: 18px;
+                                                                                        }
+                                                                                        
+                                                                                        header {
+                                                                                            background-color: hsl(193, 100%, 96%);
+                                                                                            margin: 0px 0px 0px 0px;
+                                                                                            background-image: url("images/bg-hero-mobile.svg");
+                                                                                            background-size: 500px;
+                                                                                            height: 500px;
+                                                                                            width: 100%;
+                                                                                        }
+                                                                                        
+                                                                                        nav {
+                                                                                            display: flex;
+                                                                                            flex-direction: row;
+                                                                                            justify-content: space-between;
+                                                                                        }
+                                                                                        
+                                                                                        nav>img {
+                                                                                            margin: 4px 0px 2px 0px;
+                                                                                        }
+                                                                                        
+                                                                                        nav>button {
+                                                                                            border-radius: 10px;
+                                                                                            border: none;
+                                                                                            width: 80px;
+                                                                                            height: 25px;
+                                                                                            font-size: 10px;
+                                                                                            padding: 4px;
+                                                                                            margin: 4px 5px 2px 0px;
+                                                                                        }
+                                                                                        
+                                                                                        .center {
+                                                                                            height: 470px;
+                                                                                            text-align: center;
+                                                                                        }
+                                                                                        
+                                                                                        #get {
+                                                                                            margin-bottom: 20px;
+                                                                                            margin-left: auto;
+                                                                                            margin-right: auto;
+                                                                                            height: 30px;
+                                                                                            width: 200px;
+                                                                                            border-radius: 15px;
+                                                                                            border: none;
+                                                                                            background-color: hsl(322, 100%, 66%);
+                                                                                        }
+                                                                                        
+                                                                                        #chat {
+                                                                                            height: 238px;
+                                                                                            padding-top: 20px;
+                                                                                        }
+                                                                                        
+                                                                                        main {
+                                                                                            width: 100%;
+                                                                                            position: relative;
+                                                                                            z-index: 0px;
+                                                                                            background-color: white;
+                                                                                            margin: 0px 0px;
+                                                                                        }
+                                                                                        
+                                                                                        .center2:first-child {
+                                                                                            margin-top: 50px;
+                                                                                        }
+                                                                                        
+                                                                                        .center2 {
+                                                                                            box-shadow: 2px;
+                                                                                            text-align: center;
+                                                                                            height: 450px;
+                                                                                            margin-bottom: 20px;
+                                                                                            border-radius: 10px;
+                                                                                            margin-left: 10px;
+                                                                                            margin-right: 10px;
+                                                                                            padding-bottom: 20px;
+                                                                                            border: #E0E0E0;
+                                                                                            box-shadow: 0 0 4px #ccc;
+                                                                                        }
+                                                                                        
+                                                                                        .image {
+                                                                                            margin-top: 30px;
+                                                                                        }
+                                                                                        
+                                                                                        .txt {
+                                                                                            width: 60%;
+                                                                                            margin: 30px auto 20px auto;
+                                                                                        }
+                                                                                        
+                                                                                        main h3 {
+                                                                                            margin-top: 0px;
+                                                                                            font-family: 'Poppins', sans-serif;
+                                                                                        }
+                                                                                        
+                                                                                        #relative {
+                                                                                            position: relative;
+                                                                                            z-index: 0;
+                                                                                        }
+                                                                                        
+                                                                                        #move {
+                                                                                            background-color: white;
+                                                                                            position: absolute;
+                                                                                            z-index: 10;
+                                                                                            top: -70px;
+                                                                                            text-align: center;
+                                                                                            left: 10%;
+                                                                                            right: 10%;
+                                                                                            border-radius: 15px;
+                                                                                            height: 150px;
+                                                                                            padding-top: 20px;
+                                                                                            box-shadow: 0 0 4px #ccc;
+                                                                                        }
+                                                                                        
+                                                                                        #move>button {
+                                                                                            color: white;
+                                                                                            border: none;
+                                                                                            background-color: hsl(322, 100%, 66%);
+                                                                                            height: 30px;
+                                                                                            width: 200px;
+                                                                                            border-radius: 15px;
+                                                                                        }
+                                                                                        
+                                                                                        footer {
+                                                                                            margin-top: 0px;
+                                                                                            padding-top: 100px;
+                                                                                            padding-left: 20px;
+                                                                                            background-color: hsl(192, 100%, 9%);
+                                                                                            margin-bottom: 0px;
+                                                                                        }
+                                                                                        
+                                                                                        .float {
+                                                                                            display: flex;
+                                                                                            flex-direction: row;
+                                                                                        }
+                                                                                        
+                                                                                        .float:last-child {
+                                                                                            margin-bottom: 30px;
+                                                                                        }
+                                                                                        
+                                                                                        .float>img {
+                                                                                            margin-top: 20px;
+                                                                                            margin-right: 20px;
+                                                                                        }
+                                                                                        
+                                                                                        .float>p {
+                                                                                            color: white;
+                                                                                        }
+                                                                                        
+                                                                                        #block {
+                                                                                            display: flex;
+                                                                                            flex-direction: column;
+                                                                                        }
+                                                                                        
+                                                                                        #block>a {
+                                                                                            text-decoration: none;
+                                                                                            color: white;
+                                                                                            margin-bottom: 20px;
+                                                                                        }
+                                                                                        
+                                                                                        #down {
+                                                                                            padding-top: 20px;
+                                                                                            text-align: center;
+                                                                                        }
+                                                                                        
+                                                                                        .fa {
+                                                                                            border: 1px solid white;
+                                                                                            border-radius: 50%;
+                                                                                            padding: 2.5px;
+                                                                                            width: 25px;
+                                                                                            height: 25px;
+                                                                                            margin-right: 10px;
+                                                                                            color: white;
+                                                                                        }
+                                                                                        
+                                                                                        p>small {
+                                                                                            color: white;
+                                                                                        }
+                                                                                        
+                                                                                        @media (min-width:760px) {
+                                                                                            body {
+                                                                                                padding: 0px;
+                                                                                                background-color: black;
+                                                                                            }
+                                                                                            header {
+                                                                                                height: 700px;
+                                                                                                margin: 0px;
+                                                                                            }
+                                                                                            .center {
+                                                                                                display: flex;
+                                                                                                flex-direction: row;
+                                                                                            }
+                                                                                            .center>div:first-child {
+                                                                                                margin-top: 100px;
+                                                                                                text-align: left;
+                                                                                                padding-left: 10px;
+                                                                                                margin-right: auto;
+                                                                                                width: 500px;
+                                                                                                margin-left: 30px;
+                                                                                            }
+                                                                                            #chat>img {
+                                                                                                width: 700px;
+                                                                                                height: 500px;
+                                                                                                margin-left: auto;
+                                                                                                margin-right: 30px;
+                                                                                            }
+                                                                                            .center2 {
+                                                                                                padding-top: 30px;
+                                                                                                padding-left: 20px;
+                                                                                                display: flex;
+                                                                                                flex-direction: row-reverse;
+                                                                                                text-align: left;
+                                                                                            }
+                                                                                            .center2:nth-child(2) {
+                                                                                                flex-direction: row;
+                                                                                            }
+                                                                                            #foot {
+                                                                                                margin-top: 50px;
+                                                                                                display: flex;
+                                                                                                flex-direction: row;
+                                                                                                justify-content: space-between;
+                                                                                            }
+                                                                                            #float2>p {
+                                                                                                width: 300px;
+                                                                                            }
+                                                                                            #block {
+                                                                                                display: grid;
+                                                                                                grid-template-columns: 100px 100px;
+                                                                                                align-content: center;
+                                                                                                margin-right: 40px;
+                                                                                            }
+                                                                                            #down {
+                                                                                                margin-top: 100px;
+                                                                                                margin-right: 20px;
+                                                                                            }
+                                                                                            #down p {
+                                                                                                margin-top: 200px;
+                                                                                                font-size: 15px;
+                                                                                            }
